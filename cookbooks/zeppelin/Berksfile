@@ -1,0 +1,5 @@
+source "https://supermarket.getchef.com"
+
+metadata
+cookbook 'yum-epel'
+cookbook 'java', git: 'https://github.com/socrata-cookbooks/java.git'

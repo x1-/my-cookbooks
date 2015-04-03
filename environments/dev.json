@@ -1,0 +1,16 @@
+{
+  "name": "dev",
+  "description":"development environments",
+  "chef_type": "environment",
+  "json_class": "Chef::Environment",
+  "default_attributes": {
+    "java": {
+      "install_flavor": "oracle",
+      "jdk_version": "8",
+      "oracle": {
+        "accept_oracle_download_terms": true
+      }
+    }
+  },
+  "override_attributes": {}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "sample",
+  "environment": "dev",
+  "run_list": [
+    "recipe[zeppelin]"
+  ]
+}
